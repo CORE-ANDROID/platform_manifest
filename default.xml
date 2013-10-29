@@ -398,7 +398,7 @@
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="dt" revision="master" />
   <project path="vendor/insomnia" name="CORE-ANDROID/vendor_insomnia" remote="ca" revision="jb43" />
   <project path="core" name="CORE-ANDROID/core" remote="ca" revision="master" >
-    <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
+    <copyfile src="build-insomnia.sh" dest="build-ck.sh" />
   </project>
   <!--<project path="vendor/lge" name="vendor_lge" remote="ck" revision="master" />-->
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />

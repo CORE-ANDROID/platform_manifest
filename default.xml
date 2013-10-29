@@ -403,7 +403,5 @@
     <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
   </project>
 
-  <project path="core" name="CORE-ANDROID/core" remote="github" revision="master" >
-    
-  
-</manifest>
+
+ </manifest>

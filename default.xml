@@ -401,7 +401,7 @@
   <project path="vendor/insomnia" name="CORE-ANDROID/vendor_insomnia" remote="ca" revision="jb43" >
   <project path="platform_manifest" name="CORE-ANDROID/platform_manifest" remote="ca" revision="jb-mr2" />
 
-  <project path="core" name="CORE-ANDROID/core" remote="ca" revision="master" >
+  <project path="core" name="CORE-ANDROID/core" remote="ca" revision="master" />
     <copyfile src="build.sh" dest="build-ck.sh" />
   </project>
   

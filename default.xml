@@ -396,7 +396,8 @@
  <!--Device Specific Vendors-->
   <project path="vendor/htc" name="vendor_htc" remote="dt" revision="master" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="dt" revision="master" />
-  <project path="vendor/insomnia" name="CORE-ANDROID/vendor_insomnia" remote="ca" revision="jb43" >
+  <project path="vendor/insomnia" name="CORE-ANDROID/vendor_insomnia" remote="ca" revision="jb43" />
+  <project path="core" name="CORE-ANDROID/core" remote="ca" revision="master" >
     <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
   </project>
   <!--<project path="vendor/lge" name="vendor_lge" remote="ck" revision="master" />-->

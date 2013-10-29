@@ -297,7 +297,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="ca" revision="jb43" />
+  <project path="packages/apps/PackageInstaller" name="CORE-ANDROID/packages_apps_PackageInstaller" remote="ca" revision="jb43" />
   <project path="packages/apps/Phone" name="CORE-ANDROID/packages_apps_Phone" remote="ca" revision="jb-mr2" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />

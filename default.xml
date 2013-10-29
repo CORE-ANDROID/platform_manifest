@@ -52,7 +52,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="ca" revision="jb-mr2" />
+  <project path="external/bluetooth/bluedroid" name="CORE-ANDROID/external_bluetooth_bluedroid" remote="ca" revision="jb-mr2" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.2" />
@@ -216,14 +216,14 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr2" groups="pdk" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="ca" revision="jb-mr2" />
+  <project path="frameworks/base" name="CORE-ANDROID/frameworks_base" remote="ca" revision="jb-mr2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="AOKP/frameworks_native" remote="ca" revision="jb-mr2" />
+  <project path="frameworks/native" name="CORE-ANDROID/frameworks_native" remote="ca" revision="jb-mr2" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" remote="cm" revision="cm-10.2" />
@@ -235,7 +235,7 @@
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" remote="cm" revision="cm-10.2" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/opt/telephony" name="AOKP/frameworks_opt_telephony" remote="ca" revision="jb43" />
+  <project path="frameworks/opt/telephony" name="CORE-ANDROID/frameworks_opt_telephony" remote="ca" revision="jb43" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr2"  groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -254,10 +254,10 @@
   <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="jb-mr2" groups="caf" />
   <project path="hardware/qcom/bt" name="AOKP/hardware_qcom_bt" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/display" name="AOKP/hardware_qcom_display" remote="aokp" revision="jb-mr2" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="AOKP/hardware_qcom_display-caf" remote="ca" revision="jb-mr2" />
+  <project path="hardware/qcom/display-caf" name="CORE-ANDROID/hardware_qcom_display-caf" remote="ca" revision="jb-mr2" />
   <project path="hardware/qcom/keymaster" name="AOKP/hardware_qcom_keymaster" remote="aokp" revision="jb-mr2" groups="qcom" />
   <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="aokp" revision="jb-mr2" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="AOKP/hardware_qcom_media-caf" remote="ca" revision="jb-mr2" />
+  <project path="hardware/qcom/media-caf" name="CORE-ANDROID/hardware_qcom_media-caf" remote="ca" revision="jb-mr2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
@@ -274,21 +274,21 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="ca" revision="jb43" />
+  <project path="packages/apps/Bluetooth" name="CORE-ANDROID/packages_apps_Bluetooth" remote="ca" revision="jb43" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Calculator" name="AOKP/packages_apps_Calculator" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="AOKP/packages_apps_CellBroadcastReceiver" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/CDMATools" name="AOKP/packages_apps_CDMATools" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="ca" revision="jb-mr2" />
-  <project path="packages/apps/ContactsCommon" name="AOKP/packages_apps_ContactsCommon" remote="ca" revision="jb-mr2" />
+  <project path="packages/apps/Contacts" name="CORE-ANDROID/packages_apps_Contacts" remote="ca" revision="jb-mr2" />
+  <project path="packages/apps/ContactsCommon" name="CORE-ANDROID/packages_apps_ContactsCommon" remote="ca" revision="jb-mr2" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Dialer" name="AOKP/packages_apps_Dialer" remote="ca" revision="jb-mr2" />
+  <project path="packages/apps/Dialer" name="CORE-ANDROID/packages_apps_Dialer" remote="ca" revision="jb-mr2" />
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="ca" revision="jb-mr2" />
+  <project path="packages/apps/Gallery2" name="CORE-ANDROID/packages_apps_Gallery2" remote="ca" revision="jb-mr2" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="AOKP/packages_apps_Launcher2" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
@@ -298,12 +298,12 @@
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="ca" revision="jb43" />
-  <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="ca" revision="jb-mr2" />
+  <project path="packages/apps/Phone" name="CORE-ANDROID/packages_apps_Phone" remote="ca" revision="jb-mr2" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/ROMSettings" name="AOKP/packages_apps_ROMSettings" remote="ca" revision="jb43" />
+  <project path="packages/apps/ROMSettings" name="CORE-ANDROID/packages_apps_ROMSettings" remote="ca" revision="jb43" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="ca" revision="jb-mr2" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
@@ -324,7 +324,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider" remote="aokp" revision="jb-mr2" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" remote="ca" revision="jb-mr2" />
+  <project path="packages/providers/TelephonyProvider" name="CORE-ANDROID/packages_providers_TelephonyProvider" remote="ca" revision="jb-mr2" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
@@ -387,5 +387,5 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
 
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="ca" revision="jb-mr2" />
+  <project path="platform_manifest" name="CORE-ANDROID/platform_manifest" remote="ca" revision="jb-mr2" />
 </manifest>

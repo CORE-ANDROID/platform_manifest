@@ -30,6 +30,9 @@
   <project path="build" name="CORE-ANDROID/build" remote="ca" revision="jb43" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
+  <project path="platform_manifest" name="CORE-ANDROID/platform_manifest" remote="ca" revision="jb-mr2" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.2" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -49,8 +52,6 @@
   <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="dt" revision="master" />
   <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" remote="dt" revision="master" />
   <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" remote="dt" revision="master" />
-  
-  
   
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -399,7 +400,6 @@
   <project path="vendor/insomnia" name="CORE-ANDROID/vendor_insomnia" remote="ca" revision="jb43" >
   <project path="vendor/htc" name="vendor_htc" remote="dt" revision="master" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="dt" revision="master" />
-  <project path="platform_manifest" name="CORE-ANDROID/platform_manifest" remote="ca" revision="jb-mr2" />
 
   <project path="core" name="CORE-ANDROID/core" remote="ca" revision="master" >
     <copyfile src="build.sh" dest="build-ck.sh" />

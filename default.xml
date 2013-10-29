@@ -277,7 +277,6 @@
   <project path="hardware/ril" name="AOKP/hardware_ril" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="hardware/samsung" name="AOKP/hardware_samsung" remote="aokp" revision="jb-mr2" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
-  <project path="hardware/sony/DASH" name="AOKP/hardware_sony_DASH" remote="aokp" revision="jb-mr2" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />

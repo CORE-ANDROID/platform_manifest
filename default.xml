@@ -31,7 +31,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="platform_manifest" name="CORE-ANDROID/platform_manifest" remote="ca" revision="jb-mr2" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.2" groups="pdk" />
@@ -397,6 +396,7 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
     <!--Device Specific Vendors-->
+  <project path="core" name="CORE-ANDROID/core" remote="github" revision="master" >
   <project path="vendor/htc" name="vendor_htc" remote="dt" revision="master" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="dt" revision="master" />
   <project path="vendor/insomnia" name="CORE-ANDROID/vendor_insomnia" remote="ca" revision="jb43" >

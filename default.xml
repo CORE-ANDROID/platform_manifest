@@ -392,9 +392,8 @@
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr2" groups="pdk" />
   <project path="packages/apps/KernelControls" name="CORE-ANDROID/KernelControls" remote="ca" revision="jb-devel" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
+  
+
     <!--Device Specific Vendors-->
   <project path="core" name="CORE-ANDROID/core" remote="github" revision="master" >
   <project path="vendor/htc" name="vendor_htc" remote="dt" revision="master" />
@@ -402,6 +401,10 @@
   <project path="vendor/insomnia" name="CORE-ANDROID/vendor_insomnia" remote="ca" revision="jb43" >
     <copyfile src="tools/build-insomnia.sh" dest="build-ck.sh" />
   </project>
+  <!--<Theme/>-->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
 
 
  </manifest>
